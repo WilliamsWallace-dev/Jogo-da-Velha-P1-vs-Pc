@@ -127,8 +127,15 @@ header h2{
     transition-property: all;
     transition-duration: 400ms;
     transition-timing-function:ease;
-
 }
+@media (max-width: 1000px)
+{
+  #restart {
+    margin: 16px auto;
+    transform: translate(-170%);
+  }
+}
+
 #restart:hover{
     font-size: 23px ;
     text-shadow: 0px 0px 10px white,0px 0px 10px white,0px 0px 10px white,0px 0px 10px white ;
@@ -173,5 +180,11 @@ header h2{
 {
   #p1,#p2,#p3,#p4{
     display: none;
+  }
+  header h1{
+    font-size: 36px;
+  }
+  header h2{
+    font-size: 16px;
   }
 }
