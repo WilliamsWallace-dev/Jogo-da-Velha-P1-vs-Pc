@@ -114,6 +114,14 @@ header h2{
     margin-top: 10px;
 
     
+    
+}
+
+@media (max-width: 1000px)
+{
+  .controlStart {
+    width: 80%;
+  }
 }
 
 
